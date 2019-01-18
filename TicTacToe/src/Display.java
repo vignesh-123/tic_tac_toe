@@ -1,11 +1,11 @@
 
 public class Display {
-	public void display(String arr[][])
+	public void display(char arr[])
 	{
-		for(int row=0;row<arr.length;row++) {
-			for(int col=0;col<arr[row].length;col++)
+		for(int index=0;index<arr.length;index+=3) {
+			for(int i=index;i<index+3;i++)
 			{
-				System.out.print(arr[row][col]+"|");
+				System.out.print(arr[index]+"|");
 			}
 			System.out.println();
 		}
