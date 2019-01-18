@@ -1,5 +1,5 @@
 package tictactoe;
-
+import java.util.Scanner;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
